@@ -11,7 +11,8 @@
     "url": "git+https://github.com/manzinello/colorfool.git"
   },
   "keywords": [
-    "color"
+    "color",
+    "string"
   ],
   "bin": {
     "colorfool": "./colorfool.js"
