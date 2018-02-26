@@ -1,0 +1,21 @@
+{
+  "name": "colorfool",
+  "version": "0.1.0",
+  "description": "colorfool",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzinello/colorfool.git"
+  },
+  "keywords": [
+    "color"
+  ],
+  "bin": {
+    "colorfool": "./colorfool.js"
+  },
+  "author": "Matteo Manzinello",
+  "license": "MIT"
+}
