@@ -1,6 +1,6 @@
 {
   "name": "colorfool",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "colorfool",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/manzinello/colorfool.git"
   },
+  "homepage": "https://manzinello.github.io/colorfool/",
   "keywords": [
+    "colorfool",
+    "hash",
     "color",
     "string"
   ],
