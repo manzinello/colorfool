@@ -7,6 +7,8 @@ colorfool transforms any `string` in a color! 🎨
 ## how
 type `colorfool [string also with spaces]` in a terminal to have the color of the string
 
+🎨 [manzinello.github.io/colorfool]
+
 ## example
 
 >`colorfool ciao`
@@ -16,3 +18,5 @@ type `colorfool [string also with spaces]` in a terminal to have the color of th
 `#a0c299`
 
 `https://www.colorhexa.com/a0c299`
+
+[manzinello.github.io/colorfool]: https://manzinello.github.io/colorfool/
