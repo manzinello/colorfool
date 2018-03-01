@@ -1,0 +1,14 @@
+{
+  "name": "colorfool-example",
+  "version": "0.1.2",
+  "description": "colorfool",
+  "main": "cf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorfool": "^0.1.2"
+  }
+}

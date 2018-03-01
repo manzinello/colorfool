@@ -1,9 +1,16 @@
 var colorfool = require('colorfool');
 
-function chaged() {
-    var t = document.getElementById('c').value;
-    var color = colorfool.c(t);
-    console.log(color);
+function changed() {
+    setTimeout(function () {
+        var t = document.getElementById('c').value;
+        console.log(t);
+        var color = colorfool.c(t);
+        console.log(color);
+    }, 88);
 }
 
-document.getElementById('c').addEventListener('change', changed, false);
+document.getElementById('c').addEventListener('keydown', changed, false);
+document.getElementById('c').addEventListener('paste', changed, false);
+document.getElementById('c').addEventListener('cut', changed, false);
+
+// browserify cf.js -o cf-browserified.js -d
