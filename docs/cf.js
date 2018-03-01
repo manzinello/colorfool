@@ -3,11 +3,13 @@ var colorfool = require('colorfool');
 function changed() {
 
     setTimeout(function () {
+
         var t = document.getElementById('c').value;
         console.log(t);
         var color = colorfool.c(t);
         console.log(color);
         changeColor(color);
+
     }, 88);
 
 }
