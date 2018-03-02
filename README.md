@@ -2,10 +2,12 @@
 
 [![NPM](https://nodei.co/npm/colorfool.png?compact=true)](https://nodei.co/npm/colorfool/)
 
-colorfool transforms any `string` in a color! 🎨
+colorfool transforms any text into a color! 🎨
 
 ## how
-type `colorfool [string also with spaces]` in a terminal to have the color of the string
+type `colorfool [text also with spaces]` in a terminal to have the color of the text
+
+or simply visit
 
 🎨 [manzinello.github.io/colorfool]
 
