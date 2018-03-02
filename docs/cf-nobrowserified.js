@@ -5,12 +5,22 @@ function changed() {
     setTimeout(function () {
 
         var t = document.getElementById('c').value;
-        console.log(t);
+        console.log("string: " + t);
 
-        var color = colorfool.c(t);
-        console.log(color);
+        if (!t || t === "") {
 
-        changeColor(color);
+            document.getElementById('color').style.backgroundColor = "#424242";
+            document.getElementById('color-string').innerHTML = "color";
+            document.getElementById('color-string').style.color = "#fff"
+
+        } else {
+
+            var color = colorfool.c(t);
+            console.log("colorfool: " + color);
+
+            changeColor(color);
+
+        }
 
     }, 88);
 
@@ -19,7 +29,6 @@ function changed() {
 function changeColor(color) {
     document.getElementById('color').style.backgroundColor = "#" + color;
     document.getElementById('color-string').innerHTML = "#" + color;
-    console.log(getColorByBgColor(color));
     document.getElementById('color-string').style.color = getColorByBgColor(color);
 }
 
