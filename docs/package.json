@@ -1,6 +1,6 @@
 {
   "name": "colorfool-example",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "colorfool",
   "main": "cf.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "colorfool": "^0.1.2"
+    "colorfool": "^0.1.3"
   }
 }
