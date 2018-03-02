@@ -22,5 +22,3 @@ function changeColor(color) {
 document.getElementById('c').addEventListener('keydown', changed, false);
 document.getElementById('c').addEventListener('paste', changed, false);
 document.getElementById('c').addEventListener('cut', changed, false);
-
-// browserify cf-nobrowserified.js -o cf.js -d
